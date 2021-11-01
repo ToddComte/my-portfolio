@@ -10,25 +10,25 @@ export default function NavBar() {
             to="/"
             exact
             activeClassName="text-white"
-            className="inflex-flex items-center py-6 px-3 mr-4 text-blue-900 hover:text-red-600 text-4xl font-blod cursive tracking-widest"
+            className="inflex-flex items-center py-6 px-3 mr-4 text-gray-400 hover:text-gray-100 text-4xl font-blod cursive tracking-widest"
           >
             Todd Comte
           </NavLink>
           <NavLink
             to="/post"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-900 hover:text-red-600"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-400 hover:text-gray-100"
           >
             Blog Post
           </NavLink>
           <NavLink
             to="/project"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-900 hover:text-red-600"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-400 hover:text-gray-100"
           >
             Projects
           </NavLink>
           <NavLink
             to="/about"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-900 hover:text-red-600"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-400 hover:text-gray-100"
           >
             About Me!
           </NavLink>
