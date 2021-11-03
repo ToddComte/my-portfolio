@@ -42,8 +42,7 @@ export default function NavBar() {
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
           />
-        </div>
       </div>
-    </header>
+    </div>
   );
 }
