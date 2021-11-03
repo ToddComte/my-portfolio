@@ -4,14 +4,14 @@ import { SocialIcon } from "react-social-icons";
 
 export default function NavBar() {
   return (
-    <header className="bg-blue-600">
+    <header className="bg-blue-800">
       <div className="container mx-auto flex justify-between">
         <nav className="flex">
           <NavLink
             to="/"
             exact
             activeClassName="text-white"
-            className="inflex-flex items-center py-6 px-3 mr-4 text-gray-400 hover:text-gray-100 text-4xl font-blod tracking-widest"
+            className="inflex-flex items-center py-7 px-3 mr-6 text-gray-400 hover:text-gray-100 text-4xl font-blod tracking-widest"
           >
             Todd Comte
           </NavLink>
@@ -34,7 +34,7 @@ export default function NavBar() {
             About Me!
           </NavLink>
         </nav>
-        <div>
+        <div className="inline-flex py-3 px-3 my-6">
           <SocialIcon
             url="https://www.linkedin.com/in/todd-comte-92b06769"
             className="mr-4"
