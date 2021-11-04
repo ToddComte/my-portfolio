@@ -1,11 +1,18 @@
 import React from "react";
+import image from "../neon-pattern.jpg";
 
 export default function Home() {
   return (
     <main>
-      <img />
-      <section>
-        <h1>my name is Todd</h1>;
+      <img
+        src={image}
+        alt="Neon-Pattern"
+        className="absolute object-cover w-full h-full"
+      />
+      <section className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">
+        <h1 className="text-6xl text-gray-400 font-bold cursive leading-none lg:leading-snug home-name">
+          Hello, my name is Todd.
+        </h1>
       </section>
     </main>
   );

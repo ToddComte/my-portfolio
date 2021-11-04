@@ -1,11 +1,15 @@
 // const colors = require("tailwindcss/colors");
 
 // module.exports = {
-//   mode: "jit",
-//   purge: ["./src/**/*.[html,js,svelte,ts}"],
 //   theme: {
-//     extend: {},
-//     colors: colors,
+//     colors: {
+//       transparent: "transparent",
+//       current: "currentColor",
+//       blue: {
+//         light: "#85d7ff",
+//         default: "#1fb6ff",
+//         dark: "#009eeb",
+//       },
+//     },
 //   },
-//   plugins: [],
 // };
