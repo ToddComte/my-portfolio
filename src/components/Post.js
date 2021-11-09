@@ -33,7 +33,7 @@ export default function Post() {
         <h2 className="text-lg text-gray-600 flex justify-center mb-12">
           Welcome to my Blog
         </h2>
-        <div>
+        <div className="grid md:grid-col-2 lg:grid-col-3 gap-8">
           <article>
             <Link>
               <span>
