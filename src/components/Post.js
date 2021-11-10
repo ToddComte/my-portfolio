@@ -34,16 +34,28 @@ export default function Post() {
           Welcome to my Blog
         </h2>
         <div className="grid md:grid-col-2 lg:grid-col-3 gap-8">
-          <article>
-            <Link>
-              <span>
-                <img />
-                <span>
-                  <h3></h3>
-                </span>
-              </span>
-            </Link>
-          </article>
+          {postData &&
+            postData.map((post, index) => (
+              <article>
+                <Link to={"/post/" + post.slug.current} key={post.slug.current}>
+                  <span
+                    className="block h-64 relative rounded shadow leading-snug bg-white border-l-8 border-green-400"
+                    key={index}
+                  >
+                    <img
+                      src={post.mainImage.asset.url}
+                      alt={post.mainImage.alt}
+                      className="w-full h-full rounded-r object-cover absolute"
+                    />
+                    <span className="block relative h-full flex justify-end items-end pr-4 pb-4">
+                      <h3 className="text-gray-800 text-lg font-blog px-3 py-4 bg-red-700 text-red-100 bg-opacity-75 rounded">
+                        {post.title}
+                      </h3>
+                    </span>
+                  </span>
+                </Link>
+              </article>
+            ))}
         </div>
       </section>
     </main>
