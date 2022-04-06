@@ -22,10 +22,12 @@ export default function Project() {
   }, []);
 
   return (
-    <main>
-      <section>
-        <h1></h1>
-        <h2></h2>
+    <main className="bg-green-100 min-h-screen p-12">
+      <section className="container mx-auto">
+        <h1 className="text-5xl flex justify-center">My Projects</h1>
+        <h2 className="text-lg text-gray-600 flex justifty-center mb-12">
+          Welcome to my projects page!
+        </h2>
         <section>
           <article>
             <h3></h3>
@@ -43,3 +45,4 @@ export default function Project() {
     </main>
   );
 }
+// you are at 1:17:35 in the youtube video //
