@@ -27,12 +27,9 @@ export default function Post() {
   return (
     <main className="bg-blue-100 min-h-screen p-12">
       <section className="container mx-auto">
-        <h1 className="text-5xl flex justify-center cursive">
-          My Blog Posts Page
-        </h1>
-        <h2 className="text-lg text-gray-600 flex justify-center mb-12">
+        <h1 className="text-5xl flex justify-center mb-12">
           Welcome to my Blog
-        </h2>
+        </h1>
         <div className="grid md:grid-col-2 lg:grid-col-3 gap-8">
           {postData &&
             postData.map((post, index) => (
