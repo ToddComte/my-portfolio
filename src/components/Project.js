@@ -7,12 +7,12 @@ export default function Project() {
   useEffect(() => {
     sanityClient
       .fetch(
-        `*[_type == 'project]{
+        `*[_type == "project"]{
       title,
       date,
       place,
       description,
-      ProjectType,
+      projectType,
       link,
       tags,
     }`
@@ -53,7 +53,7 @@ export default function Project() {
                   </span>
                   <span>
                     <strong className="font-bold">Type</strong>:{" "}
-                    {Project.ProjectType}
+                    {Project.projectType}
                   </span>
                   <p className="my-6 text-lg text-gray-700 leading-relaxed">
                     {Project.description}
