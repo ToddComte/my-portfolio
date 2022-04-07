@@ -20,8 +20,8 @@ export default {
       type: "text",
     },
     {
-      name: "porjectType",
-      title: "Porject Type",
+      name: "projectType",
+      title: "Project Type",
       type: "string",
       options: {
         list: [
