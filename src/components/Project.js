@@ -78,4 +78,5 @@ export default function Project() {
   );
 }
 // you are at 1:17:35 in the youtube video //
-// you are at 1:25:36 on 04/06/2022//
+// you are at 1:32:39 on 04/06/2022//
+// you are at 1:42:10 on 04/07/2022//
